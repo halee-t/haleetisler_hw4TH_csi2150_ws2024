@@ -4,8 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --filter-color: #c9b79c;
-  --bg: #71816d;
+  /* --accent-color: #596555; */
+  --accent-color: rgb(66, 114, 217);
+  --bg: #e1e1e1;
 }
 
 body {
@@ -15,16 +16,105 @@ body {
 
 header {
   width: 100vw;
-  height: 200px;
-  border: 1px solid pink;
+  max-height: 300px;
   text-align: center;
   padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
 
-header h1 {
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 90%;
 }
 
 header .navbar .filters {
-  background-color: var(--filter-color);
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: -10px 0;
+}
+
+.filter select {
+  font-size: 16px;
+  padding: 4px;
+  font-family: inherit;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+  /* background-color: #f0f0f0; */
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cars {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.carCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+}
+
+.carCard img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.carCard h3 {
+  margin-bottom: 5px;
+  color: var(--accent-color);
+}
+
+.carCard p {
+  font-size: 16px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.carCard:hover {
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+}
+
+/*scroll wheel key*/
+
+.range-container {
+  position: relative;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+#rangeValue {
+  position: absolute;
+  top: -30px; /* Adjust as needed to position it above the thumb */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
 }

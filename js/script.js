@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       carContainer.innerHTML = "";
       filteredCars.forEach((car) => {
         const carElement = document.createElement("div");
-        carElement.classList.add("car");
+        carElement.classList.add("carCard");
         carElement.innerHTML = `
         <img class="car-img" src="${car.image}" alt="${car.year} ${car.make} ${car.model}">
         <h3>${car.make} ${car.model}</h3>
@@ -81,4 +81,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Initial call to createCars
   createCars();
+});
+
+//for the scroll wheel
+
+const rangeInputMin = document.getElementById("minYear");
+const rangeValueDisplayMin = document.getElementById("rangeValueMin");
+
+const rangeInputMax = document.getElementById("maxYear");
+const rangeValueDisplayMax = document.getElementById("rangeValueMax");
+
+rangeInput.addEventListener("input", () => {
+  const currentValue = rangeInputMin.value;
+  rangeValueDisplayMin.textContent = currentValue;
+});
+
+rangeInput.addEventListener("input", () => {
+  const currentValue = rangeInputMax.value;
+  rangeValueDisplayMax.textContent = currentValue;
 });

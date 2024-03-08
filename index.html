@@ -13,54 +13,67 @@
       <h1>Used Cars Inventory</h1>
       <nav class="navbar">
         <div class="filters">
-          <label for="make">Make:</label>
-          <select id="make" name="make[]" multiple>
-            <option value="all">All Makes</option>
-            <option value="Toyota">Toyota</option>
-            <option value="Honda">Honda</option>
-            <option value="Ford">Ford</option>
-            <option value="Nissan">Nissan</option>
-            <option value="Chevorlet">Chevorlet</option>
-            <option value="Volkswagen">Volkswagen</option>
-            <option value="Hyundai">Hyundai</option>
-            <option value="Subaru">Subaru</option>
-            <option value="Mazda">Mazda</option>
-            <option value="Kia">Kia</option>
-            <option value="Dodge">Dodge</option>
-            <option value="Cadillac">Cadillac</option>
-            <option value="Jaguar">Jaguar</option>
-            <option value="Tesla">Tesla</option>
-            <option value="Porsche">Porsche</option>
-            <option value="Lexus">Lexus</option>
-            <option value="BMW">BMW</option>
-          </select>
-          <label for="minYear">Min Year:</label>
-          <input
-            type="range"
-            id="minYear"
-            name="minYear"
-            min="2014"
-            max="2020"
-          />
-          <label for="maxYear">Max Year:</label>
-          <input
-            type="range"
-            id="maxYear"
-            name="maxYear"
-            min="2014"
-            max="2020"
-          />
+          <div class="make filter">
+            <label for="make">Make:</label>
+            <select id="make" name="make">
+              <option value="all" selected>All Makes</option>
+              <option value="Toyota">Toyota</option>
+              <option value="Honda">Honda</option>
+              <option value="Ford">Ford</option>
+              <option value="Nissan">Nissan</option>
+              <option value="Chevorlet">Chevorlet</option>
+              <option value="Volkswagen">Volkswagen</option>
+              <option value="Hyundai">Hyundai</option>
+              <option value="Subaru">Subaru</option>
+              <option value="Mazda">Mazda</option>
+              <option value="Kia">Kia</option>
+              <option value="Dodge">Dodge</option>
+              <option value="Cadillac">Cadillac</option>
+              <option value="Jaguar">Jaguar</option>
+              <option value="Tesla">Tesla</option>
+              <option value="Porsche">Porsche</option>
+              <option value="Lexus">Lexus</option>
+              <option value="BMW">BMW</option>
+            </select>
+          </div>
+          <div class="minYear filter range-container">
+            <label for="minYear">Min Year:</label>
+            <input
+              type="range"
+              id="minYear"
+              name="minYear"
+              min="2014"
+              max="2020"
+              value="2014"
+            />
+            <div id="rangeValueMin">2014</div>
+          </div>
+          <div class="maxYear filter range-container">
+            <label for="maxYear">Max Year:</label>
+            <input
+              type="range"
+              id="maxYear"
+              name="maxYear"
+              min="2014"
+              max="2020"
+              value="2020"
+            />
+            <div id="rangeValueMax">2020</div>
+          </div>
+          <div class="miles filter">
           <label for="mileage">Max Mileage:</label>
           <select id="mileage" name="mileage">
             <option value="20000">20,000</option>
             <option value="30000">30,000</option>
             <option value="40000">40,000</option>
             <option value="50000">50,000</option>
-            <option value="60000">60,000</option>
+            <option value="60000" selected>60,000</option>
           </select>
+          </div>
+          <div class="price filter">
           <label for="maxPrice">Max Price:</label>
           <select id="maxPrice" name="maxPrice">
-            <option value="all">No Limit</option>
+            <option value="all" selected>No Limit</option>
             <option value="15000">$15,000</option>
             <option value="20000">$20,000</option>
             <option value="30000">$30,000</option>
@@ -68,9 +81,11 @@
             <option value="50000">$50,000</option>
             <option value="60000">$60,000</option>
           </select>
+          </div>
+          <div class="color filter">
           <label for="color">Color:</label>
           <select id="color" name="color">
-            <option value="all">All Colors</option>
+            <option value="all" selected>All Colors</option>
             <option value="black">Black</option>
             <option value="white">White</option>
             <option value="silver">Silver</option>
@@ -79,6 +94,8 @@
             <option value="gray">Gray</option>
             <option value="green">Green</option>
           </select>
+          <div class="color"></div>
+
         </div>
       </nav>
     </header>

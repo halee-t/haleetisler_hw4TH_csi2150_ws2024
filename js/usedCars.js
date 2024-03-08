@@ -7,7 +7,7 @@ const usedCars = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
-    image: "../assets/images/toyotaCamry2018Silver.jpg",
+    image: "../assets/images/toyotaCamry2018Silver.png",
   },
   {
     year: 2016,
