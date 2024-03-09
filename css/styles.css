@@ -80,7 +80,7 @@ main {
   text-align: center;
   padding: 10px;
   border-radius: 15px;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .carCard img {
@@ -109,12 +109,11 @@ main {
 
 .range-container {
   position: relative;
-  margin-bottom: 20px; /* Adjust as needed */
 }
 
 #rangeValue {
   position: absolute;
-  top: -30px; /* Adjust as needed to position it above the thumb */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
 }

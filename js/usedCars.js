@@ -27,7 +27,7 @@ const usedCars = [
     price: 16000,
     color: "Black",
     gasMileage: "28 mpg city, 38 mpg highway",
-    image: "../assets/images/fordFushsion2017Black.jpg",
+    image: "../assets/images/fordFusion2017Black.png",
   },
   {
     year: 2019,

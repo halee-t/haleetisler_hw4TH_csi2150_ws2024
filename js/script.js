@@ -91,12 +91,12 @@ const rangeValueDisplayMin = document.getElementById("rangeValueMin");
 const rangeInputMax = document.getElementById("maxYear");
 const rangeValueDisplayMax = document.getElementById("rangeValueMax");
 
-rangeInput.addEventListener("input", () => {
+rangeInputMin.addEventListener("input", () => {
   const currentValue = rangeInputMin.value;
   rangeValueDisplayMin.textContent = currentValue;
 });
 
-rangeInput.addEventListener("input", () => {
+rangeInputMax.addEventListener("input", () => {
   const currentValue = rangeInputMax.value;
   rangeValueDisplayMax.textContent = currentValue;
 });
