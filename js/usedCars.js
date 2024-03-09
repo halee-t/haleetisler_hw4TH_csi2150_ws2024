@@ -7,7 +7,7 @@ const usedCars = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
-    image: "../assets/images/toyotaCamry2018Silver.png",
+    image: "./assets/images/toyotaCamry2018Silver.png",
   },
   {
     year: 2016,
@@ -17,7 +17,7 @@ const usedCars = [
     price: 14000,
     color: "White",
     gasMileage: "30 mpg city, 40 mpg highway",
-    image: "../assets/images/hondaCivic2016White.jpg",
+    image: "./assets/images/hondaCivic2016White.jpg",
   },
   {
     year: 2017,
@@ -37,7 +37,7 @@ const usedCars = [
     price: 17000,
     color: "Blue",
     gasMileage: "27 mpg city, 36 mpg highway",
-    image: "../assets/images/nissanAltima2019Blue.jpg",
+    image: "./assets/images/nissanAltima2019Blue.jpg",
   },
   {
     year: 2015,
@@ -47,7 +47,7 @@ const usedCars = [
     price: 12000,
     color: "Red",
     gasMileage: "25 mpg city, 37 mpg highway",
-    image: "../assets/images/chevorletMalibu2015Red.jpg",
+    image: "./assets/images/chevorletMalibu2015Red.jpg",
   },
   // Additional entries:
   {
@@ -58,7 +58,7 @@ const usedCars = [
     price: 15000,
     color: "Gray",
     gasMileage: "29 mpg city, 40 mpg highway",
-    image: "../assets/images/volkswagonPassat2016Gray.jpg",
+    image: "./assets/images/volkswagonPassat2016Gray.jpg",
   },
   {
     year: 2020,
@@ -68,7 +68,7 @@ const usedCars = [
     price: 16000,
     color: "Silver",
     gasMileage: "30 mpg city, 41 mpg highway",
-    image: "../assets/images/hyundaiElantra2020Silver.jpg",
+    image: "./assets/images/hyundaiElantra2020Silver.jpg",
   },
   {
     year: 2014,
@@ -78,7 +78,7 @@ const usedCars = [
     price: 14000,
     color: "Green",
     gasMileage: "22 mpg city, 30 mpg highway",
-    image: "../assets/images/subaruOutback2014Green.jpg",
+    image: "./assets/images/subaruOutback2014Green.jpg",
   },
   {
     year: 2017,
@@ -88,7 +88,7 @@ const usedCars = [
     price: 19000,
     color: "Blue",
     gasMileage: "24 mpg city, 31 mpg highway",
-    image: "../assets/images/mazdaCX52017Blue.jpg",
+    image: "./assets/images/mazdaCX52017Blue.jpg",
   },
   {
     year: 2018,
@@ -98,7 +98,7 @@ const usedCars = [
     price: 17000,
     color: "White",
     gasMileage: "22 mpg city, 29 mpg highway",
-    image: "../assets/images/kiaSorento2018White.png",
+    image: "./assets/images/kiaSorento2018White.png",
   },
   // Five more entries:
   {
@@ -109,7 +109,7 @@ const usedCars = [
     price: 24000,
     color: "Black",
     gasMileage: "19 mpg city, 30 mpg highway",
-    image: "../assets/images/dodgeChallenger2015Black.jpg",
+    image: "./assets/images/dodgeChallenger2015Black.jpg",
   },
   {
     year: 2017,
@@ -119,7 +119,7 @@ const usedCars = [
     price: 32000,
     color: "Red",
     gasMileage: "19 mpg city, 27 mpg highway",
-    image: "../assets/images/CadillacXT52017Red.jpg",
+    image: "./assets/images/CadillacXT52017Red.jpg",
   },
   {
     year: 2018,
@@ -129,7 +129,7 @@ const usedCars = [
     price: 38000,
     color: "Blue",
     gasMileage: "18 mpg city, 23 mpg highway",
-    image: "../assets/images/jaguarFPace2018Blue.png",
+    image: "./assets/images/jaguarFPace2018Blue.png",
   },
   {
     year: 2019,
@@ -139,7 +139,7 @@ const usedCars = [
     price: 55000,
     color: "Black",
     gasMileage: "Electric (370 miles per charge)",
-    image: "../assets/images/teslaModelS2019Black.jpg",
+    image: "./assets/images/teslaModelS2019Black.jpg",
   },
   {
     year: 2020,
@@ -149,7 +149,7 @@ const usedCars = [
     price: 68000,
     color: "White",
     gasMileage: "20 mpg city, 26 mpg highway",
-    image: "../assets/images/porscheCayenne2020White.jpg",
+    image: "./assets/images/porscheCayenne2020White.jpg",
   },
   {
     year: 2017,
@@ -159,7 +159,7 @@ const usedCars = [
     price: 26000,
     color: "White",
     gasMileage: "21 mpg city, 30 mpg highway",
-    image: "../assets/images/lexusES2017White.jpg",
+    image: "./assets/images/lexusES2017White.jpg",
   },
   {
     year: 2016,
@@ -169,7 +169,7 @@ const usedCars = [
     price: 27000,
     color: "Black",
     gasMileage: "23 mpg city, 34 mpg highway",
-    image: "../assets/images/BMW5Series2016Black.jpg",
+    image: "./assets/images/BMW5Series2016Black.jpg",
   },
 ];
 
