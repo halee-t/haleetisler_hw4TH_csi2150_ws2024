@@ -169,7 +169,7 @@ const usedCars = [
     price: 27000,
     color: "Black",
     gasMileage: "23 mpg city, 34 mpg highway",
-    image: "./assets/images/BMW5Series2016Black.jpg",
+    image: "./assets/images/BMW5Series.png",
   },
 ];
 
